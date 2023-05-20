@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech</title>
+
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!--SWIPER JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            background-image: url("./images/bg-texture.png");
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>EDUTECH</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>A New Way to Learn</h1>
+                <p>EduTech is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews</p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>
+                    Not only does EduTech prepare candidates for technical interviews, we also help companies identify 
+                    top technical talent. From sponsoring contests to providing online assessments and training
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-padlock"></i></span>
+                    <h5>CyberSecurity</h5>
+                    <p>Strategies to protect organizations from cyber-attacks and disruptions</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-window-section"></i></span>
+                    <h5>Frontend</h5>
+                    <p>Design the look, feel, function, and user experience of a website</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-analytics"></i></span>
+                    <h5>Data Analytics</h5>
+                    <p>Collect, organize, and transform data to make informed decisions</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-database"></i></span>
+                    <h5>Backend</h5>
+                    <p>Build the structures that help websites function using industry-standard</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-android"></i></span>
+                    <h5>Android development</h5>
+                    <p>Build and write code for mobile apps hosted on Android smartphones</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-chart"></i></span>
+                    <h5>Data science</h5>
+                    <p>Extract and analyze data to make informed business decisions</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive social media website UI Design</h4>
+                <p>
+                    Ultimate guide to learn Grids from Bootstrap to CSS Grid + Figma Files + 
+                    HTML & CSS
+                </p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.png">
+                </div>
+                <div class="course__info">
+                    <h4> Cloud Computing</h4>
+                        <p>
+                            A course describing the basics of cloud computing and most of the aspects related to this topic
+                        </p>
+                        <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Machine Learning</h4>
+                <p>
+                    explore a wide range of techniques, including supervised, unsupervised, and 
+                    reinforcement learning
+                </p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do I know the right courses for me? </h4>
+                    <p>
+                        It is important that you list down the courses based on your
+                        interests and end goal. You must ensure that all the courses, in one
+                        way or the other, correspondent or add to your goals positively.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Do I get a certificate for every course I take? </h4>
+                    <p>
+                       Yes, You will receice a certification of completion of the course and also the performance
+                       certificate based on your marks.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Do I get a refund if the course isn't worth my money? </h4>
+                    <p>
+                        Yes, You can request for the refund upto 10 days of purchase of the course
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Will I have lifetime access to courses I purchase? </h4>
+                    <p>
+                        Yes, You can access the courses you joined can be accessed till the lifetime.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Will you assist to get my first job? </h4>
+                    <p>
+                        Yes, We can guide you to get into job in your dreamed company
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What are your payment options? </h4>
+                    <p>
+                        You can pay through the debit card,credit card or any other. For more details, contact us
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What are the requirements to start? </h4>
+                    <p>
+                        You no need to have any prior knowledge to learn the course
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Do I get all source code from projects? </h4>
+                    <p>
+                        Yes, You have the access to get the source code of the projects you purchased.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="container testimonials__container swiper mySwiper">
+        <h2>Students' Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Ahana</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        I got 3 full-time job offers and 2 internships
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/tm2.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Hima Bindhu</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Mock tests helped me to crack interviews easily
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Shreya</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Most difficult topics are taught in very easiest way
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Ayeesha</h5>
+                    <small>Data Scientist</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Had I known EduTech earlier, I would be way ahead in my career
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Dia</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                       If no EduTech, I would have taken atleast 3 years to get this job
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>EDUTECH</h4></a>
+                <p> our mission is to help you improve yourself and land your dream job</p>
+            </div>
+            <div class="footer__2">
+                <h4>Quick links</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact us</h4>
+                <div>
+                    <p>+91 9381434976</p>
+                    <p>dadisri245@gmail.com</p>
+                </div>
+            <ul class="footer__socials">
+                <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; EDUTECH</small>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints:{
+            600:{
+                slidesPerView:2
+            },
+            1000:{
+                slidesPerView:3
+            }
+          }
+        });
+      </script>
+</body>
+</html>
